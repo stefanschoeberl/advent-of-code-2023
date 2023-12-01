@@ -1,0 +1,7 @@
+#!/bin/bash
+
+day=$1
+for ((i=1; i<=day; i++))
+do
+  ./downloadInputOfDay $i
+done

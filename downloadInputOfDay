@@ -1,0 +1,10 @@
+#!/bin/bash
+
+day=$1
+printf -v daypadded "%02d" $day
+mkdir -p inputs
+SESSION=$(cat SESSION.txt)
+curl "https://adventofcode.com/2023/day/$day/input" \
+  --cookie "session=$SESSION" \
+  --output "inputs/$daypadded.txt" \
+  --silent

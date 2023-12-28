@@ -7,6 +7,7 @@ build/
 ### Advent of Code ###
 SESSION.txt
 inputs/[0-9][0-9].txt
+outputs/
 
 ### IntelliJ IDEA ###
 .idea/
